@@ -1,0 +1,27 @@
+// <ul>
+//   <h4>Gains:</h4>
+//   {this.state.pros.map( pro => {
+//     return(
+//       <li><p>{pro}</p></li>
+//     );
+//   })}
+// </ul>
+// <ul>
+//   <h4>Pains:</h4>
+//   {this.state.cons.map( con => {
+//     return(
+//       <li><p>{con}</p></li>
+//     );
+//   })}
+// </ul>
+// <ul>
+//   <h4>Main techs:</h4>
+//     {this.state.languages.map( language => {
+//       return(
+//         <li><p>{language}</p></li>
+//       );
+//     })}
+// </ul>
+// <h4>Published on <span>{this.state.published}</span></h4>
+//   </div>
+// </div>
