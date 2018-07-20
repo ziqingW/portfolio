@@ -4,10 +4,10 @@ import { Footer } from './Footer.jsx';
 const clone = require('clone');
 
 let contents = {
-  blackjack : {des: "This Single-Page-App was created with JQuery. Basically, I made several Objects as Game, Player, Dealer, Deck and Card with bunches of related functions. After the page was load, these Objects would be generated and interacted with each other, then started the game.",
+  blackjack : {des: "This Single-Page-App was created with JQuery. Just like what Blackjack should be, it's simple and fun.",
     title: "Blackjack",
   pros : ["Simple to design", "No requirement for other library support"],
-  cons : ["The logic behind the game was relatively complicated", "Double values of Ace was the key and Bug's hotbed for the program", "Too many functions and variables", "Debugging was exhausting"],
+  cons : ["The logic behind the game was relatively complicated", "Double values of Ace was the key but also a Bug's hotbed for the program", "Too many functions and variables", "Debugging was exhausting. For example, I never got blackjack during the coding so I had no idea if there would be any issue of it in real-time run"],
   language: ["JQuery"],
   published : "GitHub Page",
 img_source : "blackjack.png",
@@ -16,10 +16,10 @@ source : "https://github.com/ziqingW/blackjack2"},
 
 
   tictactoe : {
-    des: "This is one of the Single-Page-App I created at my earlier coding time during studying the online course from freeCodeCamp. I did it on CodePen.io with JQuery. You can select to play it first or second. For the fun, I intentionally designed the AI a little bit 'random', so you can still win the game sometimes.",
+    des: "This is one of the Single-Page-App I had created at my earlier coding time during studying the online course from freeCodeCamp. I did it on CodePen.io with JQuery. You can select to play it first or second. For the fun, I intentionally designed the AI a little bit 'random', so you can still win the game sometimes.",
     title: "Tic Tac Toe",
     pros : ["It was fun to write the program", "As one of my early achievements in coding, it gave me great confidence", "My friends liked it"],
-    cons : ["Too many functions and variables", "Styling with CSS was annoying"],
+    cons : ["Too many functions and variables", "Styling with CSS was annoying", "If the AI was completely random, game would be too easy and boring. However, if the AI followed the unique correct strategy, fun would be ruined. So how to catch the balance between them was a headache to me"],
     language: ["JQuery"],
     published : "GitHub Page",
   img_source : "tictactoe.png",
@@ -29,8 +29,8 @@ source : "https://github.com/ziqingW/TicTacToe"},
     simon : {
       des : "It is another homework during my earlier coding time while studying from freeCodeCamp. I did it on CodePen.io with JQuery. You can select normal mode or crazy mode to play the game. In normal mode you can repeat the try until you hit the buttons correctly, while in crazy mode you only have one chance.",
       title: "Simon Game",
-      pros: ["CSS work was fun"],
-      cons : ["There was an issue with the playing sounds which always popped as explosion, so I had to turn them off"],
+      pros: ["CSS part was fun"],
+      cons : ["There was an issue with the sounds playing which always popped as explosion", "I tried hard to save them but not working after all, so I had to turn them off", "It was very sad"],
       language: ["JQuery"],
       published : "GitHub Page",
     img_source : "simonicon.png",
@@ -38,10 +38,10 @@ source : "https://github.com/ziqingW/TicTacToe"},
   source : "https://github.com/ziqingW/Simon"},
 
     chatter : {
-      des : "I created this app with express and socket.io. It's working like an online chat room. Different people can join in one same room and communicate with each other. You can send and receive public message or private message to or from other users.",
-      pros : ["It was functionally useful as an app", "As my first time using socket.io it was fun"],
+      des : "I created this app with express and socket.io. It's working like an online chat room. Different people can join in one same room and communicate with each other. You can send public or private messages to the other users, or receive the messages from them.",
+      pros : ["It was functionally useful as an real life App", "As my first time using socket.io it was fun"],
       title: "Chatter",
-      cons : ["It was not easy to debug, I had to insert a lot of console.log() into the program", "It was very tricky to select and get the attribute value of the particular user for private chat by JQuery, which took me most of the time in doing it"],
+      cons : ["It was not easy to debug, I had to insert a lot of console.log() into the program", "It was very tricky to select and get the attribute value of the particular user for private chat by JQuery, which took me most of the time in trying it"],
       language: ["node.js", "express", "socket.io","JQuery"],
       published : "Heroku",
     img_source : "chatter.png",
@@ -49,10 +49,10 @@ source : "https://github.com/ziqingW/TicTacToe"},
 source : "https://github.com/ziqingW/chatter"},
 
     reviewer : {
-      des : "A yelp-like website for you to search and read the reviews of restaurants in current list. After signing up and logging in as a user, you can leave comments for current restaurants or add new bussiness to the list.",
+      des : "A yelp-like website for you to search and read the reviews of restaurants in current list. After signing up and logging in as a user, you can leave comments for current restaurants or add new bussiness into the list.",
       title: "What Diners Say",
-      pros : ["Making this helped me manage the cross-talk between database and express", "By fetching data from database, I could render the template html page with different data"],
-      cons : ["Creating sample database was annoying"],
+      pros : ["Making this helped me manage the cross-talking between database and express", "By fetching data from database, I could render different pages from one same template .html"],
+      cons : ["Creating sample of database was annoying"],
       language: ["node.js", "express", "nunjucks", "PostgreSQL", "JQuery"],
       published : "Heroku",
     img_source : "reviewer.png",
@@ -61,10 +61,10 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     react_contact : {
-      des : "This is a Single-Page-App I made with React. You can search, edit, delete or add contacts with it. The contact list is stored in local storage, and you can check it later with the updated results. This is the first project for React in DigitalCrafts course. It had been almost one year before I use React again for coding, so I needed to update my knowledge and skills in earnest. This project was a greating training for me.",
-      pros: ["I had gained a refresh of React by making it", "For the very first time, I got touch with React router"],
+      des : "This is a Single-Page-App I made with React. You can search, edit, delete or add contacts with it. The contact list is stored in local storage, and you can check it later with the updated info. This is the first project of React in DigitalCrafts' course. It had been almost one year before I used React again for coding, so I needed to update my knowledge and skills in earnest. This project was a greating training for me.",
+      pros: ["I had gained a refreshment for React by making it", "For the very first time, I began to try React router"],
       title: "React-Contacts",
-      cons: ["I hadn't learnt React Redux when I was making this App, the interactions of states and props among sibling or parent-children components were like a hell to me", "React router was pretty difficult in the beginning", "The index.js file was too big"],
+      cons: ["I hadn't learnt React Redux when I was making this App, the interactions of states and props among sibling or parent-children components were like a hell to me", "React router was very difficult to understand in the beginning", "The index.js file was way too big"],
       language: ["React", "React Router"],
       published : "Heroku",
     img_source : "contacts.png",
@@ -73,10 +73,10 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     recipes : {
-      des : "This is one of the React Apps I made when studying from freeCodeCamp one year ago. The React library behind it was already out of date, and some methods were deprecated. Although it is old somehow, it is well functional. You can add, edit or delete recipe from it. The updated results are stored in local storage, then you can visit it again later.",
+      des : "This is one of the React Apps I made when studying from freeCodeCamp one year ago. The React library behind it is already out of date, and some methods are deprecated. Although it is old somehow, it is well functional still. You can add, edit or delete recipe from it. The updated results are stored in local storage, so that you can visit it again later.",
       pros : ["Like the 'Tic Tac Toe', this is the one of those I showed mostly to my friends", "It's my favorite React App, even after I can build much larger and more complicated Apps using Redux and React router"],
       title: "Mama's Recipe Book",
-      cons : ["None, I enjoyed every seconds making it"],
+      cons : ["None, I enjoyed every seconds of making it"],
       language: ["React"],
       published : "CodePen",
     img_source : "recipes.png",
@@ -85,10 +85,10 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     yingyang : {
-      des : "This is the work for the assigned individual project by DigitalCrafts. It is a fun fortunetelling game using the philosophy of 'Ying & Yang' from the ancient Chinese. You can ask any questions, then as following the old way you will toss three coins for six times. Based on the coin-toss results, you will get two different symbols. One for current status of the question, the other one for the future. You will find out the hidden answer by yourself from the hints of the symbols.",
+      des : "This is the work for the assigned individual project by DigitalCrafts. It is a fortunetelling game utilizing the philosophy of 'Ying & Yang' from the ancient Chinese. You can ask any questions, then as the old way you will toss three coins for six times. Based on the coin-toss results, you will get two different symbols. One for the current status of the question, and the other one for the future. You will find out the hidden answers by yourself from the hints of the symbols.",
       pros : ["I applied Redux and React router on this project. Both worked smoothly and stably", "It's the first time I combined node.js with React in one App, it feels good"],
       title: "Ask Yingyang",
-      cons : ["Some library was not supported by React-build, so I had to import it in backend then made calls from React instead of directly using at frontend", "I had huge problem when deploying it to Heroku", "After enormous attempts I still couldn't make both express_API and React_UI working together if I include them in one package", "Eventually I overcame it by deploying two separate packages to heroku"],
+      cons : ["The API returning the critical data required for this project was not supported by React-build, so I had to import it in backend then made requests from express instead of directly using it at React frontend", "I had huge problems when deploying it to Heroku", "After enormous attempts I still couldn't make both express_API and React_UI working together if I include them in one package", "Eventually I overcame it by deploying two separate packages to heroku"],
       language: ["React", "React router", "Redux", "node.js", "express", "PostgreSQL"],
       published : "Heroku",
     img_source : "yingyang.png",
@@ -97,9 +97,9 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     weather : {
-      des : "Weather Report is a simple App powered by Python Tornado and API from 'Openweathermap'. You can search the queried city's current weather condition or check the historical queried results of it.",
+      des : "Weather Report is a simple App powered by Python Tornado and API from 'Openweathermap'. You can check the current weather condition of the searched city, or, list the historical queried results of the same city.",
       title: "Weather Report",
-      pros : ["I designed multiple handlers for different scenarios to save memory", "If it's a search for new city, the API will be called", "If the interval of query for the same city is less than 2 hours, the App will ask database for the latest result instead of making API request", "If the interval is longer than 2 hours, the API will be called and the results will be saved in database"],
+      pros : ["I designed multiple handlers for different scenarios to optimize API requests so as to improve efficiency", "If it's a search for new city, the API request will be called", "If the interval of query for the same city is less than 2 hours, the App will ask database for the latest result instead of making API request", "If the interval is longer than 2 hours, the API will be called and the latest results will be saved in database"],
       cons : ["Different conditions made the coding and debugging tiring", "Dealing with time zone and time format in database was depressing"],
       language: ["Python", "Tornado", "PostgreSQL", "jinja2"],
       published : "Heroku",
@@ -110,9 +110,9 @@ source : "https://github.com/ziqingW/chatter"},
 
     forum : {
       des : "It is a forum-like website powered by Python Tornado. Basically you can write new posts or comment on other posts in differnt categories.",
-      pros : ["It was my first time to use Python to build a real website (most likely)", "First time to use database in dynamic App"],
+      pros : ["It was my first time to use Python to build a real website (most likely)", "First time to use database in a dynamic App"],
       title: "Kotaku Forum",
-      cons : ["As an early work for website project, the login system was bad", "Some designs of it were clumsy, like the 'slug' part"],
+      cons : ["As an early work for website project, the login system was lame", "Some designs of it were clumsy, especially, the 'slug' part"],
       language: ["Python", "Tornado", "PostgreSQL", "jinja2"],
       published : "Heroku",
     img_source : "blog.png",
@@ -121,10 +121,10 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     tornado : {
-      des : "It is a showcase of my several small Single-Page-Apps in one bundle App powered by Python Tornado. You can find 'Tic Tac Toe', 'Simon', 'Timezone Converter' which is built by Python and 'Mini-Wiki' in it. Also you can send messages directly to my mailbox from the App.",
-      pros: ["It was my first web App using Python, very excited", "Responsible for different devices", "It was amazing to send mails onsite"],
+      des : "It is a showcase of my several small Single-Page-Apps in one bundle App powered by Python Tornado. In it you can find 'Tic Tac Toe', 'Simon', 'Mini-Wiki' those built by html/JQuery and 'Timezone Converter' which is built by Python. Also you can send messages directly to my mailbox from the App.",
+      pros: ["It was my first web App using Python, very excited", "UI were responsible for different devices", "It was amazing to send mails onsite"],
       title: "Tornado Showcase",
-      cons : ["I hadn't learnt redirection or other directives for page management when making this App, so the navigation within it was clumsy"],
+      cons : ["I hadn't learnt redirection or other directives for page management when making this App, so the navigation for different pages was clumsy"],
       language: ["Python", "Tornado", "jinja2"],
       published : "Heroku",
     img_source : "tornado.png",
@@ -133,10 +133,10 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     climate : {
-      des : "This is the group project assigned by DigitalCrafts. <a href='https://github.com/lloydXmas'>Noel Honeybourne</a>, <a href='https://github.com/Zengeol'>Claudia Ling</a> and me made it as a team. The goal of this App is to collect temperature and humidity data from sensors placed in Noel's house, and display them as charts. You can check the temp/humidity in different room or on different date.",
+      des : "This is the group project assigned by DigitalCrafts. <a href='https://github.com/lloydXmas' target='_blank'>Noel Honeybourne</a>, <a href='https://github.com/Zengeol' target='_blank'>Claudia Ling</a> and me made it as a team. The goal of this App is to collect temperature and humidity data from sensors placed in Noel's house, and display them in charts. You can check the temp/humidity in different room or on different date.",
       title: "Climate Monitor",
-      pros: ["My duty as a team member was to write both backend program for Tornado server and frontend methods for html components interactions, plus some css work", "It was my first time to collaborate with others through Github", "And it was working well eventually, that was the best part"],
-      cons : ["As the first time to do group work through Github, the process was painful", "People might discard your work as it conflicted with his/hers", "Mistakes frequently popped up when trying to push or pull from remote"],
+      pros: ["My duty as a team member was to write both backend program for Tornado server and frontend methods for html components interactions, plus some css work", "It was my first time to collaborate with others through Github", "And the teamwork was fruitful in the end, which was the best part of the project"],
+      cons : ["As the first time to do group work through Github, the process was painful", "People might discard your work as it conflicted with his/hers", "Mistakes frequently popped up when trying to push or pull repo from remote"],
       language: ["Python", "Tornado", "jinja2", "PostgreSQL", "JQuery"],
       published : "Heroku",
     img_source : "climate.png",
@@ -239,9 +239,9 @@ export class Individual extends React.Component {
                     : null}
                     </div>
                   </ul>
-                  <h3>Published on <a href={this.state.link}>{this.state.published}</a> / <a href={this.state.source}>Source {this.state.slug == "recipes" ? "(CodePen)" : "(GitHub)"}</a></h3>
+                  <h3>Published on <a href={this.state.link} target="_blank">{this.state.published }</a> / <a href={this.state.source} target="_blank">Source {this.state.slug == "recipes" ? "(CodePen)" : "(GitHub)"}</a></h3>
               </div>
-                {this.state.img_source ? (<a href={this.state.link}><img src={require("../images/" + this.state.img_source)} alt={this.state.slug}/></a>)
+                {this.state.img_source ? (<a href={this.state.link} target="_blank"><img src={require("../images/" + this.state.img_source)} alt={this.state.slug}/></a>)
               : null}
           </div>
         </div>
