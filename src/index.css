@@ -40,21 +40,21 @@ a {
   margin: 0;
 }
 .menu-back ul li{
-  padding-bottom: 10px;
+  padding-bottom: 1em;
   padding-top: 0px;
   text-align: left;
 }
 .menu-back h3 {
   color: #222;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 1.1em;
   line-height: 14px;
 }
 .menu-back li a {
   color: #999;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 14px;
 }
 .onlink {
@@ -134,7 +134,7 @@ a {
 .footer {
   font-family: 'Oswald', sans-serif;
   color: #ccc;
-  font-size: 12px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 16px;
   padding-bottom: 60px;
@@ -207,7 +207,7 @@ a {
 .individual-gain-pain ul p {
   color: #999;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 22px;
 }
 .individual-lower-panel {
