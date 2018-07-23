@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu } from './Menu.jsx';
+import Menu from './Menu.jsx';
 import { Showcase } from './Showcase.jsx';
 
 export class Main extends React.Component {

@@ -5,9 +5,10 @@ import { About } from './jsxs/About.jsx';
 import { Individual } from './jsxs/Individual.jsx';
 import { Contact } from './jsxs/Contact.jsx';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-library.add(fab);
+library.add(fab,faBars);
 
 export default class App extends React.Component {
   render () {
