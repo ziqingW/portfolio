@@ -133,7 +133,7 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     climate : {
-      des : "This is the group project assigned by DigitalCrafts. <a href='https://github.com/lloydXmas' target='_blank'>Noel Honeybourne</a>, <a href='https://github.com/Zengeol' target='_blank'>Claudia Ling</a> and me made it as a team. The goal of this app is to collect temperature and humidity data from sensors placed in Noel's house, and display them in charts. You can check the temp/humidity in different room or on different date.",
+      des : "This is the group project assigned by DigitalCrafts. <a href='https://github.com/lloydXmas' rel='noopener noreferrer' target='_blank'>Noel Honeybourne</a>, <a href='https://github.com/Zengeol' rel='noopener noreferrer' target='_blank'>Claudia Ling</a> and me made it as a team. The goal of this app is to collect temperature and humidity data from sensors placed in Noel's house, and display them in charts. You can check the temp/humidity in different room or on different date.",
       title: "Climate Monitor",
       pros: ["My duty as a team member was to write both backend program for Tornado server and frontend methods for html components interactions, plus some css work", "It was my first time to collaborate with others through Github", "And the teamwork was fruitful in the end, which was the best part of the project"],
       cons : ["As the first time to do group work through Github, the process was painful", "People might discard your work as it conflicted with his/hers", "Mistakes frequently popped up when trying to push or pull repo from remote"],
@@ -239,9 +239,9 @@ export class Individual extends React.Component {
                     : null}
                     </div>
                   </ul>
-                  <h3>Published on <a href={this.state.link} target="_blank">{this.state.published }</a> / <a href={this.state.source} target="_blank">Source {this.state.slug == "recipes" ? "(CodePen)" : "(GitHub)"}</a></h3>
+                  <h3>Published on <a href={this.state.link} target="_blank" rel="noopener noreferrer">{this.state.published }</a> / <a href={this.state.source} target="_blank" rel="noopener noreferrer">Source {this.state.slug === "recipes" ? "(CodePen)" : "(GitHub)"}</a></h3>
               </div>
-                {this.state.img_source ? (<a href={this.state.link} target="_blank"><img src={require("../images/" + this.state.img_source)} alt={this.state.slug}/></a>)
+                {this.state.img_source ? (<a href={this.state.link} target="_blank" rel="noopener noreferrer"><img src={require("../images/" + this.state.img_source)} alt={this.state.slug}/></a>)
               : null}
           </div>
         </div>

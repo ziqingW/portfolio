@@ -16,7 +16,7 @@ export class Contact extends React.Component {
             <p>Houston, TX</p>
             <p>804-687-8474</p>
             <p>redtaq@hotmail.com</p>
-            <p><a href="https://github.com/ziqingW" target="_blank">https://github.com/ziqingW</a></p> </div>
+            <p><a href="https://github.com/ziqingW" rel="noopener noreferrer" target="_blank">https://github.com/ziqingW</a></p> </div>
             </div>
           </div>
           <Footer />
