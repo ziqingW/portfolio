@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sizes from 'react-sizes';
+import ReactTooltip from 'react-tooltip';
 
 class Menu extends React.Component {
   constructor (props) {
@@ -90,23 +91,29 @@ class Sidemenus extends React.Component {
         </ul>
         <ul className="menu-bottom">
           <Link to="/"><h3>{this.props.mobile? "PROJECTS" : "Projects"}</h3></Link>
-          <li><Link to="/app/blackjack">Blackjack</Link></li>
-          <li><Link to="/app/tictactoe">Tic Tac Toe</Link></li>
-          <li><Link to="/app/simon">Simon Game</Link></li>
-          <li><Link to="/app/chatter">Chatter</Link></li>
-          <li><Link to="/app/reviewer">What Diners Say</Link></li>
-          <li><Link to="/app/react_contact">React-Contacts</Link></li>
-          <li><Link to="/app/recipes">Mama's Recipe Book</Link></li>
           <li><Link to="/app/yingyang">Ask Yingyang</Link></li>
+          <li><Link to="/app/reviewer">What Diners Say</Link></li>
+          <li><Link to="/app/chatter">Chatter</Link></li>
+          <li><Link to="/app/climate">Climate Monitor</Link></li>
+          <li><Link to="/app/react_contact">React-Contacts</Link></li>
           <li><Link to="/app/weather">Weather Report</Link></li>
           <li><Link to="/app/forum">Kotaku Forum</Link></li>
           <li><Link to="/app/tornado">Tornado Showcase</Link></li>
-          <li><Link to="/app/climate">Climate Monitor</Link></li>
+          <li><Link to="/app/recipes">Mama's Recipe Book</Link></li>
+          <li><Link to="/app/tictactoe">Tic Tac Toe</Link></li>
+          <li><Link to="/app/blackjack">Blackjack</Link></li>
+          <li><Link to="/app/simon">Simon Game</Link></li>
         </ul>
       </div>
       <div className="menu-icons">
-          <a href="https://github.com/ziqingW" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-          <a href="https://www.linkedin.com/in/ziqing-wang-34549537/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+      <div>
+          <a data-tip="GitHub" href="https://github.com/ziqingW" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+          <ReactTooltip />
+      </div>
+      <div>
+          <a data-tip="Linkedin" href="https://www.linkedin.com/in/ziqing-wang-34549537/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+          <ReactTooltip />
+      </div>
       </div>
     </div>
   );

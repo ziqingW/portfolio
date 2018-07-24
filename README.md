@@ -3,9 +3,9 @@
 It demonstrates some selected works I've created by far.
 
 ## Work List
-- **Blackjack**: Classical card game (JQuery)
-- **Tic Tac Toe**: Classical chess game (JQuery)
-- **Simon Game**: A retro game to test your response (JQuery)
+- **Blackjack**: Classical card game (jQuery)
+- **Tic Tac Toe**: Classical chess game (jQuery)
+- **Simon Game**: A retro game to test your response (jQuery)
 - **Chatter**: Online chat room (Node.js, Express, Socket.io)
 - **What Diners Say**: Restaurant reviewer (Node.js, Express, PostgreSQL)
 - **React-Contacts**: Your contacts book (React, React Router)
@@ -14,7 +14,7 @@ It demonstrates some selected works I've created by far.
 - **Weather Report**: What's the weather now (Python, Tornado, PostgreSQL, Jinja2)
 - **Kotaku Forum**: in which you can discuss manga and anime (Python, Tornado, PostgreSQL, Jinja2)
 - **Tornado Showcase**: a bundle of apps on the server powered by Tornado (Python, Tornado, Jinja2)
-- **Climate Monitor**: A group project to monitor your home's temp/humidity (Python, Tornado, PostgreSQL, Jinja2, JQuery)
+- **Climate Monitor**: A group project to monitor your home's temp/humidity (Python, Tornado, PostgreSQL, Jinja2, jQuery)
 
 ## Major Techs in creating Portfolio
 - React
