@@ -60,7 +60,7 @@ a {
     width: 100%
   }
   .back-to-top a {
-    color: #757575;
+    color: #999;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -72,7 +72,7 @@ a {
   /* footer panel*/
   .footer {
     font-family: 'Oswald', sans-serif;
-    color: #ccc;
+    color: #999;
     font-size: 1em;
     font-weight: 400;
     line-height: 16px;
@@ -91,6 +91,9 @@ a {
     flex-grow: 1;
     min-height: 600px;
   }
+  /*.contents-skill {*/
+  /*  width: 100%;*/
+  /*}*/
   .contents-wrap h1 {
     color : #222;
     font-size: 40px;
@@ -101,7 +104,11 @@ a {
     line-height: 26px;
     padding-bottom: 20px;
     padding-top: 0px;
-    color: #999;
+    color: #757575;
+    width: 100%;
+  }
+  .contents-skill li{
+    margin: 6px 0;
   }
   .contents-p a {
     color : #8ab5ff;
@@ -131,7 +138,7 @@ a {
     list-style-type: circle;
   }
   .individual-gain-pain ul p {
-    color: #999;
+    color: #757575;
     font-weight: 400;
     font-size: 1em;
     line-height: 22px;
@@ -227,7 +234,7 @@ a {
   }
   /* footer panel */
   .footer a {
-    color: #ccc;
+    color: #999;
   }
   .footer a:hover{
     color: #222;
@@ -271,7 +278,7 @@ a {
   }
   .individual-lower-panel ul li p {
     padding: 0 0 0 16px;
-    color: #999;
+    color: #757575;
   }
   .individual-lower-panel h3 a:hover{
     filter: brightness(200%);
@@ -409,7 +416,7 @@ a {
   }
   .individual-lower-panel ul li p {
     padding: 0 16px 0 0;
-    color: #999;
+    color: #757575;
   }
 
 

@@ -34,7 +34,7 @@ class Menu extends React.Component {
     let prevSize = prevState.mobile;
     let current_slug = window.location.href.split("app")[1];
     let prev_slug = prevState.slug;
-    if (currentSize != prevSize) {
+    if (currentSize !== prevSize) {
         if (currentSize) {
           this.setState({
             mobile : true,
@@ -48,7 +48,7 @@ class Menu extends React.Component {
           });
         }
       }
-  if (current_slug != prev_slug) {
+  if (current_slug !== prev_slug) {
     this.setState({
       slug : current_slug,
       showMenu: false
@@ -105,8 +105,8 @@ class Sidemenus extends React.Component {
         </ul>
       </div>
       <div className="menu-icons">
-          <a href="https://github.com/ziqingW" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-          <a href="https://www.linkedin.com/in/ziqing-wang-34549537/" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+          <a href="https://github.com/ziqingW" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+          <a href="https://www.linkedin.com/in/ziqing-wang-34549537/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
       </div>
     </div>
   );
