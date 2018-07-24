@@ -5,7 +5,6 @@ It demonstrates some selected works I've created by far.
 ## Work List
 - **Ask Yingyang**: Something mysterious to tell your fortunate (React, React Router, Redux, Node.js, Express, PostgreSQL)
 - **What Diners Say**: Restaurant reviewer (Node.js, Express, PostgreSQL)
-
 - **Chatter**: Online chat room (Node.js, Express, Socket.io)
 - **Climate Monitor**: A group project to monitor your home's temp/humidity (Python, Tornado, PostgreSQL, Jinja2, jQuery)
 - **React-Contacts**: Your contacts book (React, React Router)
