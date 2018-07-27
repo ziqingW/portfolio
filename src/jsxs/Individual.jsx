@@ -141,7 +141,7 @@ source : "https://github.com/ziqingW/chatter"},
       published : "Heroku",
     img_source : "climate.png",
     link : "https://cli-monitor.herokuapp.com/",
-    source : "https://github.com/lloydXmas/climate-control-system-monitor"
+    source : "https://github.com/ziqingW/climate-control-system-monitor"
     }
 };
 
