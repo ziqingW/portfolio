@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu.jsx';
 import { Footer } from './Footer.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import pdf from '../files/ZiqingWangResumeTech.pdf';
+import pdf from '../files/ZiqingWangResume.pdf';
 import ReactTooltip from 'react-tooltip';
 
 export class Contact extends React.Component {
