@@ -1,6 +1,7 @@
 # My Portfolio
 
-It demonstrates some selected works I've created by far.
+It demonstrates some selected works I've created by far.  
+Responsive to different devices.
 
 ## Work List
 - **Ask Yingyang**: Something mysterious to tell your fortunate (React, React Router, Redux, Node.js, Express, PostgreSQL)
