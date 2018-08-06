@@ -91,10 +91,10 @@ class Sidemenus extends React.Component {
         </ul>
         <ul className="menu-bottom">
           <Link to="/"><h3>{this.props.mobile? "PROJECTS" : "Projects"}</h3></Link>
-          <li><Link to="/app/yingyang">Ask Yingyang</Link></li>
+          <li><Link to="/app/climate">Climate Monitor</Link></li>
           <li><Link to="/app/reviewer">What Diners Say</Link></li>
           <li><Link to="/app/chatter">Chatter</Link></li>
-          <li><Link to="/app/climate">Climate Monitor</Link></li>
+          <li><Link to="/app/yingyang">Ask Yingyang</Link></li>
           <li><Link to="/app/react_contact">React-Contacts</Link></li>
           <li><Link to="/app/weather">Weather Report</Link></li>
           <li><Link to="/app/forum">Kotaku Forum</Link></li>
