@@ -96,9 +96,6 @@ class Sidemenus extends React.Component {
           <li><Link to="/app/chatter">Chatter</Link></li>
           <li><Link to="/app/yingyang">Ask Yingyang</Link></li>
           <li><Link to="/app/react_contact">React-Contacts</Link></li>
-          <li><Link to="/app/weather">Weather Report</Link></li>
-          <li><Link to="/app/forum">Kotaku Forum</Link></li>
-          <li><Link to="/app/tornado">Tornado Showcase</Link></li>
           <li><Link to="/app/recipes">Mama's Recipe Book</Link></li>
           <li><Link to="/app/tictactoe">Tic Tac Toe</Link></li>
           <li><Link to="/app/blackjack">Blackjack</Link></li>
@@ -125,3 +122,7 @@ const mapSizesToProps = ({ width }) => ({
 });
 
 export default Sizes(mapSizesToProps)(Menu);
+
+// <li><Link to="/app/weather">Weather Report</Link></li>
+// <li><Link to="/app/forum">Kotaku Forum</Link></li>
+// <li><Link to="/app/tornado">Tornado Showcase</Link></li>

@@ -96,41 +96,41 @@ source : "https://github.com/ziqingW/chatter"},
     source : "https://github.com/ziqingW/iching_react_ui"
     },
 
-    weather : {
-      des : "Weather Report is a simple app powered by Python Tornado and API from 'Openweathermap'. You can check the current weather condition of the searched city, or, list the historical queried results of the same city.",
-      title: "Weather Report",
-      pros : ["I designed multiple handlers for different scenarios to optimize API requests so as to improve efficiency", "If it's a search for new city, the API request will be called", "If the interval of query for the same city is less than 2 hours, the app will ask database for the latest result instead of making API request", "If the interval is longer than 2 hours, the API will be called and the latest results will be saved in database"],
-      cons : ["Different conditions made the coding and debugging tiring", "Dealing with time zone and time format in database was depressing"],
-      language: ["Python", "Tornado", "PostgreSQL", "Jinja2"],
-      published : "Heroku",
-    img_source : "weather.png",
-    link: "https://miniweather.herokuapp.com/",
-    source : "https://github.com/ziqingW/weather-API"
-    },
+    // weather : {
+    //   des : "Weather Report is a simple app powered by Python Tornado and API from 'Openweathermap'. You can check the current weather condition of the searched city, or, list the historical queried results of the same city.",
+    //   title: "Weather Report",
+    //   pros : ["I designed multiple handlers for different scenarios to optimize API requests so as to improve efficiency", "If it's a search for new city, the API request will be called", "If the interval of query for the same city is less than 2 hours, the app will ask database for the latest result instead of making API request", "If the interval is longer than 2 hours, the API will be called and the latest results will be saved in database"],
+    //   cons : ["Different conditions made the coding and debugging tiring", "Dealing with time zone and time format in database was depressing"],
+    //   language: ["Python", "Tornado", "PostgreSQL", "Jinja2"],
+    //   published : "Heroku",
+    // img_source : "weather.png",
+    // link: "https://miniweather.herokuapp.com/",
+    // source : "https://github.com/ziqingW/weather-API"
+    // },
 
-    forum : {
-      des : "It is a forum-like website powered by Python Tornado. Basically you can write new posts or comment on other posts in differnt categories.",
-      pros : ["It was my first time to use Python to build a real website (most likely)", "First time to use database in a dynamic app"],
-      title: "Kotaku Forum",
-      cons : ["As an early work for website project, the login system was lame", "Some designs of it were clumsy, especially, the 'slug' part"],
-      language: ["Python", "Tornado", "PostgreSQL", "Jinja2"],
-      published : "Heroku",
-    img_source : "blog.png",
-    link : "https://tornado-blog.herokuapp.com/",
-    source : "https://github.com/ziqingW/tornado-blog"
-    },
+    // forum : {
+    //   des : "It is a forum-like website powered by Python Tornado. Basically you can write new posts or comment on other posts in differnt categories.",
+    //   pros : ["It was my first time to use Python to build a real website (most likely)", "First time to use database in a dynamic app"],
+    //   title: "Kotaku Forum",
+    //   cons : ["As an early work for website project, the login system was lame", "Some designs of it were clumsy, especially, the 'slug' part"],
+    //   language: ["Python", "Tornado", "PostgreSQL", "Jinja2"],
+    //   published : "Heroku",
+    // img_source : "blog.png",
+    // link : "https://tornado-blog.herokuapp.com/",
+    // source : "https://github.com/ziqingW/tornado-blog"
+    // },
 
-    tornado : {
-      des : "It is a showcase of my several small Single-Page-Apps in one bundle app powered by Python Tornado. In it you can find 'Tic Tac Toe', 'Simon', 'Mini-Wiki' those built by html/jQuery and 'Timezone Converter' which is built by Python. Also you can send messages directly to my mailbox from the app.",
-      pros: ["It was my first web app using Python, very excited", "UI were responsible for different devices", "It was amazing to send mails onsite"],
-      title: "Tornado Showcase",
-      cons : ["I hadn't learnt redirection or other directives for page management when making this app, so the navigation for different pages was clumsy"],
-      language: ["Python", "Tornado", "Jinja2"],
-      published : "Heroku",
-    img_source : "tornado.png",
-    link : "https://dc-tornado-ziqing.herokuapp.com/",
-    source : "https://github.com/ziqingW/tornado-exercise"
-    },
+    // tornado : {
+    //   des : "It is a showcase of my several small Single-Page-Apps in one bundle app powered by Python Tornado. In it you can find 'Tic Tac Toe', 'Simon', 'Mini-Wiki' those built by html/jQuery and 'Timezone Converter' which is built by Python. Also you can send messages directly to my mailbox from the app.",
+    //   pros: ["It was my first web app using Python, very excited", "UI were responsible for different devices", "It was amazing to send mails onsite"],
+    //   title: "Tornado Showcase",
+    //   cons : ["I hadn't learnt redirection or other directives for page management when making this app, so the navigation for different pages was clumsy"],
+    //   language: ["Python", "Tornado", "Jinja2"],
+    //   published : "Heroku",
+    // img_source : "tornado.png",
+    // link : "https://dc-tornado-ziqing.herokuapp.com/",
+    // source : "https://github.com/ziqingW/tornado-exercise"
+    // },
 
     climate : {
       des : "This is the group project assigned by DigitalCrafts. <a href='https://github.com/lloydXmas' rel='noopener noreferrer' target='_blank'>Noel Honeybourne</a>, <a href='https://github.com/Zengeol' rel='noopener noreferrer' target='_blank'>Claudia Ling</a> and me made it as a team. The goal of this app is to collect temperature and humidity data from sensors placed in Noel's house, and display them in charts. You can check the temp/humidity in different room or on different date.",
