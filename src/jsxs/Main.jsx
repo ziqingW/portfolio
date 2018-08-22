@@ -8,6 +8,10 @@ export class Main extends React.Component {
       <div className="main-back">
         <Menu />
         <Showcase imgs={[
+        {source: "lamp.png",
+            name: "LAMP",
+            link: "/app/lamp",
+          alt: "Climate-cover"},
           {source: "climate.png",
             name: "Climate Monitor",
             link: "/app/climate",

@@ -91,6 +91,7 @@ class Sidemenus extends React.Component {
         </ul>
         <ul className="menu-bottom">
           <Link to="/"><h3>{this.props.mobile? "PROJECTS" : "Projects"}</h3></Link>
+          <li><Link to="/app/lamp">LAMP</Link></li>
           <li><Link to="/app/climate">Climate Monitor</Link></li>
           <li><Link to="/app/reviewer">What Diners Say</Link></li>
           <li><Link to="/app/chatter">Chatter</Link></li>

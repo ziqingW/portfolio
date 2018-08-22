@@ -142,6 +142,18 @@ source : "https://github.com/ziqingW/chatter"},
     img_source : "climate.png",
     link : "https://cli-monitor.herokuapp.com/",
     source : "https://github.com/ziqingW/climate-control-system-monitor"
+    },
+    
+    lamp : {
+      des : "Even now, the management of experimental animals in lab is still primitive and inefficient in ways from paper recording to Excel forms. These methods are hard to maintain and in short of sustainability. Different recording patterns from different researchers also make the transition painfully. However, with the help of LAMP, the management of lab animals can be easy, fast and efficient. The versatility of LAMP make the research project progress stably and seamlessly.",
+      title: "Lab Animal Management Platform (LAMP)",
+      pros: ["User can add, edit, delete lab animals in database including multiple species", "User can check the status of ongoing animal projects anytime", "LAMP support sorting and search for any recorded items of animal", "By the help of various React libraries, the coding itself was much easier and faster than before", "The deployment to Heroku of this time was going smoothly"],
+      cons : ["The most difficult part was to design the layout of the App", "I used too many requests for the same data from server by axios in frontend, which could be saved in Redux and distributed in stead"],
+      language: ["React", "Redux", "Node.js", "PostgreSQL", "Express"],
+      published : "Heroku",
+    img_source : "lamp.png",
+    link : "https://labanimals.herokuapp.com/",
+    source : "https://github.com/ziqingW/LabAnimal"
     }
 };
 
