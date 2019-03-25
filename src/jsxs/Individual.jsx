@@ -34,7 +34,7 @@ source : "https://github.com/ziqingW/trivia_game_react"},
   language: ["jQuery"],
   published : "GitHub Page",
 img_source : "blackjack.png",
-link : "http://blackjack.bukarle.com/",
+link : "https://ziqingw.github.io/blackjack2/",
 source : "https://github.com/ziqingW/blackjack2"},
 
 
