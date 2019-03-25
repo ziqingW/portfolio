@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sizes from 'react-sizes';
 import ReactTooltip from 'react-tooltip';
+import docx from '../files/Ziqing_Wang_Resume.docx';
 
 class Menu extends React.Component {
   constructor (props) {
@@ -91,6 +92,8 @@ class Sidemenus extends React.Component {
         </ul>
         <ul className="menu-bottom">
           <Link to="/"><h3>{this.props.mobile? "PROJECTS" : "Projects"}</h3></Link>
+          <li><Link to="/app/eog">Houston Probe Visualization</Link></li>
+          <li><Link to="/app/trivia">Trivia Game</Link></li>
           <li><Link to="/app/lamp">LAMP</Link></li>
           <li><Link to="/app/climate">Climate Monitor</Link></li>
           <li><Link to="/app/reviewer">What Diners Say</Link></li>
@@ -104,12 +107,20 @@ class Sidemenus extends React.Component {
       </div>
       <div className="menu-icons">
       <div>
+      <a data-tip="Email" href="mailto:redtaq@hotmail.com"><FontAwesomeIcon icon={['far', 'envelope']} /></a>
+      <ReactTooltip />
+      </div>
+      <div>
           <a data-tip="GitHub" href="https://github.com/ziqingW" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} /></a>
           <ReactTooltip />
       </div>
       <div>
           <a data-tip="Linkedin" href="https://www.linkedin.com/in/ziqing-wang-34549537/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
           <ReactTooltip />
+      </div>
+      <div>
+      <a data-tip="Résumé" download="ZiqingWang_Resume" href={docx}><FontAwesomeIcon icon={['far', 'file-alt']} /></a>
+      <ReactTooltip />
       </div>
       </div>
     </div>

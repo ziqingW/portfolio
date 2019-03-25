@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu.jsx';
 import { Footer } from './Footer.jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import pdf from '../files/ZiqingWangResume.pdf';
+import docx from '../files/Ziqing_Wang_Resume.docx';
 import ReactTooltip from 'react-tooltip';
 
 export class Contact extends React.Component {
@@ -33,7 +33,7 @@ export class Contact extends React.Component {
               <ReactTooltip />
               </div>
               <div>
-              <a data-tip="Résumé" download="ZiqingWang_Resume" href={pdf}><FontAwesomeIcon icon={['far', 'file-alt']} /></a>
+              <a data-tip="Résumé" download="ZiqingWang_Resume" href={docx}><FontAwesomeIcon icon={['far', 'file-alt']} /></a>
               <ReactTooltip />
               </div>
               </div>

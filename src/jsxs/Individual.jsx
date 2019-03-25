@@ -4,6 +4,29 @@ import { Footer } from './Footer.jsx';
 const clone = require('clone');
 
 let contents = {
+  eog : {des: "A React assessment project for EOG to visualize the real-time probe reading around Houston in various ways: form, map and line plot.",
+    title: "Houston Probe Visualization",
+  pros : ["It was a great usage for Redux and React-Saga", "I learned to use React-Saga for dealing with API requests and errors from it"],
+  cons : ["A default marker was created when there was no data received for the React Google Map, which was annoying to remove", "Too frequent reloading the page would cause the API freezed for couple of seconds"],
+  language: ["React", "Redux", "React-Saga"],
+  published : "GitHub Page",
+img_source : "eog.png",
+link : "https://ziqingw.github.io/EOG_assessment/",
+source : "https://github.com/ziqingW/EOG_assessment"},
+
+  trivia : {des: "A trivia game with data from <a href='https://opentdb.com/' rel='noopener noreferrer' target='_blank'>Open Trivia Database</a>. Generally, you can set up your game by selecting category, difficulty and question amounts before starting the game. After completing the game, you will get your score and replay it as a new game.",
+    title: "Trivia Game",
+  pros : ["Another example for React-Saga to handle API", "It could be made as a multi-paged app, however I decided to consolidate it into one single-page-app in the case of convenience",
+"React-Toastify is amazing and easy to use for notification"],
+  cons : ["In the first version, there was no indication if the player made the correct selection which hurt the user's experience badly",
+  "In the second version, I added the selection result indication with react-toastify",
+  "A review of all answered questions would be helpful and more interesting to users, which can be added in the following version"],
+  language: ["React", "Redux", "React-Saga", "React-Toastify"],
+  published : "GitHub Page",
+img_source : "trivia.png",
+link : "https://ziqingw.github.io/trivia_game_react/",
+source : "https://github.com/ziqingW/trivia_game_react"},
+
   blackjack : {des: "This Single-Page-App was created with jQuery. Just like what Blackjack should be, it's simple and fun.",
     title: "Blackjack",
   pros : ["Simple to design", "No requirement for other library support"],
@@ -143,7 +166,7 @@ source : "https://github.com/ziqingW/chatter"},
     link : "https://cli-monitor.herokuapp.com/",
     source : "https://github.com/ziqingW/climate-control-system-monitor"
     },
-    
+
     lamp : {
       des : "Even now, the management of experimental animals in lab is still primitive and inefficient in ways from paper recording to Excel forms. These methods are hard to maintain and in short of sustainability. Different recording patterns from different researchers also make the transition painfully. However, with the help of LAMP, the management of lab animals can be easy, fast and efficient. The versatility of LAMP make the research project progress stably and seamlessly.",
       title: "Lab Animal Management Platform (LAMP)",
