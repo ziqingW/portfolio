@@ -25,7 +25,7 @@ export class About extends React.Component {
           </ul>
           <p>Certification:</p>
             <ul>
-              <li><a href="http://aws.amazon.com/verification" target="_blank">AWS Solutions Architect Associate </a><i>(credential ID: V961BDZKDFE1QQ9L)</i></li>
+              <li><a href="http://aws.amazon.com/verification" rel="noopener noreferrer" target="_blank">AWS Solutions Architect Associate </a><i>(credential ID: V961BDZKDFE1QQ9L)</i></li>
             </ul>
           </div>
         </div>
