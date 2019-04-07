@@ -94,8 +94,9 @@ class Sidemenus extends React.Component {
           <Link to="/"><h3>{this.props.mobile? "PROJECTS" : "Projects"}</h3></Link>
           <li><Link to="/app/eog">Houston Probe Visualization</Link></li>
           <li><Link to="/app/trivia">Trivia Game</Link></li>
-          <li><Link to="/app/lamp">LAMP</Link></li>
+          <li><Link to="/app/lamp">Lab Animal Management Platform</Link></li>
           <li><Link to="/app/climate">Climate Monitor</Link></li>
+          <li><Link to="/app/klotski">Japanese Klotski Puzzle</Link></li>
           <li><Link to="/app/reviewer">What Diners Say</Link></li>
           <li><Link to="/app/chatter">Chatter</Link></li>
           <li><Link to="/app/react_contact">React-Contacts</Link></li>

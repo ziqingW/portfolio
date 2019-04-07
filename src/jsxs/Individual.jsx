@@ -14,6 +14,18 @@ img_source : "eog.png",
 link : "https://ziqingw.github.io/EOG_assessment/",
 source : "https://github.com/ziqingW/EOG_assessment"},
 
+klotski : {
+  des: "<a href='https://en.wikipedia.org/wiki/Klotski' rel='noopener noreferrer' target='_blank'>Klotski</a> is a sliding block puzzle thought to have originated in the early 20th century. The name may refer to a specific layout of ten blocks, or in a more global sense to refer to a whole group of similar sliding-block puzzles where the aim is to move a specific block to some predefined location. In this Japanese version, the goal is to help the Daughter which is the red block <span style='color: red;'><b>(娘)</b></span> escape from all kinds of pressures from the traditional family and society to the EXIT.",
+  title: "Japanese Klotski Puzzle",
+  pros: ["It's my first React project working with draggable elements", "In the beginning I thought it was impossible to complete, thanks to the React-Grid-Layout I can freely drag and drop any grids in the end"],
+  cons: ["Due to the lack of documentaion of React-Grid-Layout, it was very hard to catch the correct timing for updating state", "Also, several features were hard to implement as the boundary for the grids' moving range or rules to restrict moving mode", "I had to work around by restricting moving block only one grid at one time, otherwise the game would be forced refresh with the layout as the last step, which hurt user's experience badly", "And the drag gesture was a nightmare on ios that the whole page was moving elasticly by moving the block", "After a long time of searching and trial, I overcame it by using 'body-scroll-lock' which can lock body part of the page"],
+  language: ["React", "React-Grid-Layout", "Material-ui"],
+  published : "GitHub Page",
+  img_source : "klotski.png",
+  link : "https://ziqingw.github.io/Japan-klotski/",
+  source : "https://github.com/ziqingW/Japan-klotski"
+},
+
   trivia : {des: "A trivia game with data from <a href='https://opentdb.com/' rel='noopener noreferrer' target='_blank'>Open Trivia Database</a>. Generally, you can set up your game by selecting category, difficulty and question amounts before starting the game. After completing the game, you will get your score and replay it as a new game.",
     title: "Trivia Game",
   pros : ["Another example for React-Saga to handle API", "It could be made as a multi-paged app, however I decided to consolidate it into one single-page-app in the case of convenience",
