@@ -83,17 +83,17 @@ source : "https://github.com/ziqingW/TicTacToe"},
   link: "https://mini-chatter.herokuapp.com/",
 source : "https://github.com/ziqingW/chatter"},
 
-    reviewer : {
-      des : "A yelp-like website for you to search and read the reviews of restaurants in current list. After signing up and logging in as a user, you can leave comments for current restaurants or add new bussiness into the list.",
-      title: "What Diners Say",
-      pros : ["Making this helped me manage the cross-talking between database and Express", "By fetching data from database, I could render different pages from one same template .html"],
-      cons : ["Creating sample of database was annoying"],
-      language: ["Node.js", "Express", "nunjucks", "PostgreSQL", "jQuery"],
-      published : "Heroku",
-    img_source : "reviewer.png",
-    link : "http://whatdinersay.bukarle.com/",
-    source : "https://github.com/ziqingW/restaurant_reviewer"
-    },
+    // reviewer : {
+    //   des : "A yelp-like website for you to search and read the reviews of restaurants in current list. After signing up and logging in as a user, you can leave comments for current restaurants or add new bussiness into the list.",
+    //   title: "What Diners Say",
+    //   pros : ["Making this helped me manage the cross-talking between database and Express", "By fetching data from database, I could render different pages from one same template .html"],
+    //   cons : ["Creating sample of database was annoying"],
+    //   language: ["Node.js", "Express", "nunjucks", "PostgreSQL", "jQuery"],
+    //   published : "Heroku",
+    // img_source : "reviewer.png",
+    // link : "http://whatdinersay.bukarle.com/",
+    // source : "https://github.com/ziqingW/restaurant_reviewer"
+    // },
 
     react_contact : {
       des : "This is a Single-Page-App I made with React. You can search, edit, delete or add contacts with it. The contact list is stored in local storage, and you can check it later with the updated info. This is the first project of React in DigitalCrafts' course. It had been almost one year before I used React again for coding, so I needed to update my knowledge and skills in earnest. This project was a greating training for me.",
@@ -119,17 +119,17 @@ source : "https://github.com/ziqingW/chatter"},
     source : "https://codepen.io/redtaq/pen/JZbKEr"
     },
 
-    // yingyang : {
-    //   des : "This is the work for the assigned individual project by DigitalCrafts. It is a fortunetelling game utilizing the philosophy of 'Ying & Yang' from the ancient Chinese. You can ask any questions, then as the old way you will toss three coins for six times. Based on the coin-toss results, you will get two different symbols. One for the current status of the question, and the other one for the future. You will find out the hidden answers by yourself from the hints of the symbols.",
-    //   pros : ["I applied Redux and React router on this project. Both worked smoothly and stably", "It's the first time I combined Node.js with React in one app, it feels good"],
-    //   title: "Ask Yingyang",
-    //   cons : ["The API returning the critical data required for this project was not supported by React-build, so I had to import it in backend then made requests from Express instead of directly using it at React frontend", "I had huge problems when deploying it to Heroku", "After enormous attempts I still couldn't make both Express_API and React_UI working together if I include them in one package", "Eventually I overcame it by deploying two separate packages to heroku"],
-    //   language: ["React", "React router", "Redux", "Node.js", "Express", "PostgreSQL"],
-    //   published : "Heroku",
-    // img_source : "yingyang.png",
-    // link : "https://askyingyang.herokuapp.com/",
-    // source : "https://github.com/ziqingW/iching_react_ui"
-    // },
+    yingyang : {
+      des : "This is the work for the assigned individual project by DigitalCrafts. It is a fortunetelling game utilizing the philosophy of 'Ying & Yang' from the ancient Chinese. You can ask any questions, then as the old way you will toss three coins for six times. Based on the coin-toss results, you will get two different symbols. One for the current status of the question, and the other one for the future. You will find out the hidden answers by yourself from the hints of the symbols.",
+      pros : ["I applied Redux and React router on this project. Both worked smoothly and stably", "It's the first time I combined Node.js with React in one app, it feels good"],
+      title: "Ask Yingyang",
+      cons : ["The API returning the critical data required for this project was not supported by React-build, so I had to import it in backend then made requests from Express instead of directly using it at React frontend", "I had huge problems when deploying it to Heroku", "After enormous attempts I still couldn't make both Express_API and React_UI working together if I include them in one package", "Eventually I overcame it by deploying two separate packages to heroku"],
+      language: ["React", "React router", "Redux", "Node.js", "Express", "PostgreSQL"],
+      published : "Heroku",
+    img_source : "yingyang.png",
+    link : "https://askyingyang.herokuapp.com/",
+    source : "https://github.com/ziqingW/iching_react_ui"
+    },
 
     // weather : {
     //   des : "Weather Report is a simple app powered by Python Tornado and API from 'Openweathermap'. You can check the current weather condition of the searched city, or, list the historical queried results of the same city.",

@@ -97,7 +97,7 @@ class Sidemenus extends React.Component {
           <li><Link to="/app/lamp">Lab Animal Management Platform</Link></li>
           <li><Link to="/app/climate">Climate Monitor</Link></li>
           <li><Link to="/app/klotski">Japanese Klotski Puzzle</Link></li>
-          <li><Link to="/app/reviewer">What Diners Say</Link></li>
+          <li><Link to="/app/yingyang">Ask Yingyang</Link></li>
           <li><Link to="/app/chatter">Chatter</Link></li>
           <li><Link to="/app/react_contact">React-Contacts</Link></li>
           <li><Link to="/app/recipes">Mama's Recipe Book</Link></li>
