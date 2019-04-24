@@ -4,6 +4,16 @@ import { Footer } from './Footer.jsx';
 const clone = require('clone');
 
 let contents = {
+  hooks : {des: "<p>A sample of single-page-app as Reminder built with pure React-Hooks. No React class component was created in this app. All state values and events were managed and controlled by hooks function. Generally, I used useState to create state variables and setters for them. It's easy and clear.</p><p>You can add new or delete old reminds for each individual booklet. The edit function will be included in the later version.</p>",
+    title: "Reminder (by React-Hooks)",
+  pros : ["A fun try with React-hooks", "Compared with the traditional class component in React, the way to handle state is more direct and clean with hooks", "Responsive design"],
+  cons : ["Since I'm still learning how to use React-Hooks, I'm a little confused about the usage of Redux with Hooks", "Need to pay attention on JavaScript hoist"],
+  language: ["React-Hooks"],
+  published : "GitHub Page",
+  img_source : "hooks.png",
+  link : "https://ziqingw.github.io/React-Hooks-Sample/",
+  source : "https://github.com/ziqingW/React-Hooks-Sample"},
+
   eog : {des: "A React assessment project for EOG to visualize the real-time probe reading around Houston in various ways: form, map and line plot.",
     title: "Houston Probe Visualization",
   pros : ["It was a great usage for Redux and React-Saga", "I learned to use React-Saga for dealing with API requests and errors from it"],
@@ -180,7 +190,7 @@ source : "https://github.com/ziqingW/chatter"},
     },
 
     lamp : {
-      des : "Even now, the management of experimental animals in lab is still primitive and inefficient in ways from paper recording to Excel forms. These methods are hard to maintain and in short of sustainability. Different recording patterns from different researchers also make the transition painfully. However, with the help of LAMP, the management of lab animals can be easy, fast and efficient. The versatility of LAMP make the research project progress stably and seamlessly.",
+      des : "<p>Even now, the management of experimental animals in lab is still primitive and inefficient in ways from paper recording to Excel forms. These methods are hard to maintain and in short of sustainability. Different recording patterns from different researchers also make the transition painfully. However, with the help of LAMP, the management of lab animals can be easy, fast and efficient. The versatility of LAMP make the research project progress stably and seamlessly.</p><p><b>Account# for testing</b>: redtaq</p><p><b>Password</b>: 12345677 (Please don't change it)</p>",
       title: "Lab Animal Management Platform (LAMP)",
       pros: ["User can add, edit, delete lab animals in database including multiple species", "User can check the status of ongoing animal projects anytime", "LAMP support sorting and search for any recorded items of animal", "By the help of various React libraries, the coding itself was much easier and faster than before", "The deployment to Heroku of this time was going smoothly"],
       cons : ["The most difficult part was to design the layout of the App", "I used too many requests for the same data from server by axios in frontend, which could be saved in Redux and distributed in stead"],

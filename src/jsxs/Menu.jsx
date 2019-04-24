@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Sizes from 'react-sizes';
 import ReactTooltip from 'react-tooltip';
-import docx from '../files/Ziqing_Wang_Resume.docx';
+import docx from '../files/ZiqingWang_Resume.pdf';
 
 class Menu extends React.Component {
   constructor (props) {
@@ -92,15 +92,15 @@ class Sidemenus extends React.Component {
         </ul>
         <ul className="menu-bottom">
           <Link to="/"><h3>{this.props.mobile? "PROJECTS" : "Projects"}</h3></Link>
-          <li><Link to="/app/eog">Houston Probe Visualization</Link></li>
-          <li><Link to="/app/trivia">Trivia Game</Link></li>
+          <li><Link to="/app/hooks">Reminder (by React-Hooks)</Link></li>
           <li><Link to="/app/lamp">Lab Animal Management Platform</Link></li>
+          <li><Link to="/app/trivia">Trivia Game</Link></li>
+          <li><Link to="/app/eog">Houston Probe Visualization</Link></li>
           <li><Link to="/app/climate">Climate Monitor</Link></li>
           <li><Link to="/app/klotski">Japanese Klotski Puzzle</Link></li>
           <li><Link to="/app/yingyang">Ask Yingyang</Link></li>
           <li><Link to="/app/chatter">Chatter</Link></li>
           <li><Link to="/app/react_contact">React-Contacts</Link></li>
-          <li><Link to="/app/recipes">Mama's Recipe Book</Link></li>
           <li><Link to="/app/tictactoe">Tic Tac Toe</Link></li>
           <li><Link to="/app/blackjack">Blackjack</Link></li>
           <li><Link to="/app/simon">Simon Game</Link></li>
